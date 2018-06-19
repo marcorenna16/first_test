@@ -1,0 +1,50 @@
+/*
+Theme Name: BASICA
+Theme URI: not available
+Author: Marco Renna
+Author URI: www.marcorennadesign.it
+Description: Tema custom di prova per la conversione di un template HTML con Bootstrap4 in tema WP.
+Version: 1.6
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: twentyseventeen
+Tags: html5, bootstrap4
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+*/
+
+
+/**********************************
+**        REALLY CUSTOM CSS     **
+*********************************/
+
+.navbar {
+  height: 80px;
+  transition: all .5s ease-out;
+  position: fixed;
+  z-index: 9999999;
+  min-width: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+.navbar-shrink {
+  height: 50px;
+  transition: all .5s ease-in;
+  background-color: rgba(34,34,34,1);
+}
+.navbar+.section {
+  padding-top: 120px;
+}
+
+.navbar-nav a.nav-link {
+  color: #ffffff;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+.pagination-nav {
+  margin: 0 auto;
+}
+.pagination-nav a {
+  margin: 0 10px;
+}
